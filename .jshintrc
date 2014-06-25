@@ -1,0 +1,19 @@
+{
+    "jquery": true,
+    "browser": true,
+    "globals": {
+        "element": true,
+        "by": true,
+        "did": true,
+        "console": true,
+        "expect": true,
+        "beforeEach": true,
+        "browser":true,
+        "driver":true,
+        "waitsFor":true,
+        "protractor":true,
+        "describe":true,
+        "require":true,
+        "it":true
+    }
+}
