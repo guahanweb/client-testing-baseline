@@ -4,7 +4,6 @@
     "globals": {
         "element": true,
         "by": true,
-        "did": true,
         "console": true,
         "expect": true,
         "beforeEach": true,
