@@ -102,7 +102,7 @@ by use of the `grunt jsdoc` task. Configuration for this task can be modified in
 
 ## License
 
-Copyright (c) 2014 Garth Henson (@guahanweb)  
+Copyright (c) 2014 Garth Henson (@guahanweb)
 Licensed under the MIT license.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/guahanweb/client-testing-baseline/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
