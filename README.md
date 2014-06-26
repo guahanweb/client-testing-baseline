@@ -1,11 +1,13 @@
 Client Testing Baseline
 =======================
 
+## About
+
 This project sets up a baseline testing structure for both unit and e2e tests for a web project.
 There are multiple parts and tools available to be integrated with your site, so you can pick
 and choose the one(s) you wish to use.
 
-## Installation
+## Usage
 
 Once you have cloned the repository, there are a few tasks that need to be run to get everything
 up to date. First and foremost, you need to install all the devDependencies present in the
@@ -82,18 +84,25 @@ out the [Protractor documenation](https://github.com/angular/protractor) and
 
 There are additional tools provided with this setup to give you another boost to your code quality.
 
-### [Grunt Contrib JSHint](https://github.com/gruntjs/grunt-contrib-jshint)
+### [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 
 Running the `grunt jshint` task will check all files configured in your `Gruntfile.js`. Additionally, it
 will load its options from the `.jshintrc` in your git root.
 
-### [Grunt Contrib Uglify](https://github.com/gruntjs/grunt-contrib-uglify)
+### [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
 
 Once your source JavaScript files are ready for production, you can use the `grunt uglify` task to
 automatically merge and minify into distribution code. Uglify is also configured directly in the
 `Gruntfile.js` task definition.
 
-### [Grunt JSDoc](https://github.com/krampstudio/grunt-jsdoc)
+### [grunt-jsdoc](https://github.com/krampstudio/grunt-jsdoc)
 
 Also supported out of the box is the ability to build API documentation of your client application
 by use of the `grunt jsdoc` task. Configuration for this task can be modified in `docs/conf.json`.
+
+## License
+
+Copyright (c) 2014 Garth Henson (@guahanweb)
+Licensed under the MIT license.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/guahanweb/client-testing-baseline/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
